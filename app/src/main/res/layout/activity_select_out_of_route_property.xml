@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backyardx">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom_buttons"
+
+        android:gravity="center|top"
+        android:orientation="vertical"
+        android:scaleType="centerCrop"
+        android:weightSum="1">
+
+        <TextView
+
+            android:id="@+id/crew_bar_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/mainBg"
+            android:layout_alignStart="@+id/mainBg"
+            android:layout_alignTop="@+id/mainBg"
+            android:background="#b4ffffff"
+            android:gravity="center|top"
+            android:maxHeight="55dp"
+            android:padding="15dp"
+            android:text="Crew w1 Riley Compton"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/adjust_page_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/crew_bar_title"
+            android:layout_marginTop="20dp"
+            android:background="#d4ffffff"
+            android:gravity="center"
+            android:maxHeight="55dp"
+            android:padding="15dp"
+            android:text="Choose Property in Route"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/property_search_filter"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffffff"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:text="Search"
+            android:layout_marginTop="10dp"
+            ></EditText>
+        <ListView
+            android:id="@+id/property_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#b4ffffff"
+
+            >
+
+
+        </ListView>
+    </LinearLayout>
+</RelativeLayout>

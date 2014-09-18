@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/backyardx"
+    android:scaleType="centerCrop"
+    android:gravity="center|top">
+
+
+    <TextView
+
+        android:id="@+id/crew_bar_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Crew w1 Riley Compton"
+        android:textSize="20dp"
+        android:background="#b4ffffff"
+        android:padding="15dp"
+        android:gravity="center|top"
+        android:maxHeight="55dp"
+        android:layout_alignTop="@+id/mainBg"
+        android:layout_alignLeft="@+id/mainBg"
+        android:layout_alignStart="@+id/mainBg" />
+
+    <TextView
+        android:id="@+id/adjust_page_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Adjust Crew For Next Property"
+        android:textSize="20dp"
+        android:background="#d4ffffff"
+        android:padding="15dp"
+        android:gravity="center"
+        android:maxHeight="55dp"
+        android:layout_below="@+id/crew_bar_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Current Crew"
+        android:id="@+id/current_crew"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#0099CC"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/currentCrew"
+        android:background="#b4ffffff"
+        android:layout_weight="1"
+        >
+
+
+    </ListView>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Crew"
+        android:id="@+id/add_crew"
+        android:layout_gravity="bottom|center"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#0099CC"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Drive to Next Property"
+        android:id="@+id/drive_next_property"
+        android:gravity="bottom|center"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:background="#0099CC"
+        android:textColor="#ffffff"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_paddingBottom="20dp"
+        />
+
+
+</LinearLayout>

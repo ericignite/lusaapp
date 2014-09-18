@@ -1,0 +1,161 @@
+10
+
+dir
+0
+http://svn.ignite360.com/repo/trunk/androidapps/Lusa/v0.1/app/src/main/res/layout
+http://svn.ignite360.com/repo
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+369f2e7a-d44a-0410-b8bc-d7b9f944a0d9
+
+begin_day.xml
+file
+
+
+
+add
+
+register.xml
+file
+
+
+
+add
+
+main.xml
+file
+
+
+
+add
+
+fragment_detail.xml
+file
+
+
+
+add
+
+crew_row.xml
+file
+
+
+
+add
+
+dashboard.xml
+file
+
+
+
+add
+
+pick_property.xml
+file
+
+
+
+add
+
+web_access.xml
+file
+
+
+
+add
+
+activity_main.xml
+file
+
+
+
+add
+
+entry.xml
+file
+
+
+
+add
+
+prompts.xml
+file
+
+
+
+add
+
+fragment_main_old.xml
+file
+
+
+
+add
+
+fragment_main.xml
+file
+
+
+
+add
+
+row.xml
+file
+
+
+
+add
+
+login.xml
+file
+
+
+
+add
+
+adjust_crew.xml
+file
+
+
+
+add
+
+list_item_forecast_textview.xml
+file
+
+
+
+add
+
+activity_detail.xml
+file
+
+
+
+add
+
+list_item_forecast.xml
+file
+
+
+
+add
+

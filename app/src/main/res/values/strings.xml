@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lusa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="today">Today, August 26</string>
+    <string name="high_degrees">21°</string>
+    <string name="low_degrees">8°</string>
+    <string name="today_forecast">Today - Sunny - 88 / 63</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_map">Map Location</string>
+    <string name="action_webview">Web View</string>
+    <string name="action_share">Map Location</string>
+    <string name="action_refresh" translatable="false">Refresh</string>
+    <string name="action_begin_day" translatable="false">Begin Day</string>
+    <string name="action_login" translatable="false">Login</string>
+    <string name="title_activity_detail">Details</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">99218</string>
+    <string name="pref_units_label">Units</string>
+    <string name="pref_units_key">units</string>
+    <string name="pref_units_default">imperial</string>
+    <string name="hello">Hello World!</string>
+    <string name="btnLinkToRegisterScreen" translatable="false">I dont have account. Register Me!</string>
+    <string name="btnLinkLogin" translatable="false">Login</string>
+    <string name="addDialogTitle">New Entry</string>
+    <string name="addItem">Add Item</string>
+    <string name="cancelItem">Cancel</string>
+    <string name="title_activity_add_crew">AddCrewActivity</string>
+    <string name="title_activity_choose_property">ChoosePropertyActivity</string>
+
+</resources>

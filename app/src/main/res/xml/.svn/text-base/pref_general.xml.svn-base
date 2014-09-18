@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <EditTextPreference
+        android:key="location"
+        android:title="Postal Code"
+        android:summary="Define the Postal Code for your location"
+        android:dialogTitle="Set Postal Code"
+        android:dialogMessage="Provide a Postal Code"
+        android:defaultValue="@string/pref_location_default" />
+
+    <PreferenceCategory
+        android:title="Unit of Measure">
+        <ListPreference
+            android:key="units"
+            android:title="Choose a Unit of Measure"
+            android:defaultValue="imperial"
+            android:entries="@array/unitsArray"
+            android:entryValues="@array/unitsValues" />
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

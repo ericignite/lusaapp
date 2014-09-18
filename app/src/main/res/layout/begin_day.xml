@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mainBg"
+        android:adjustViewBounds="false"
+        android:src="@drawable/backyardx"
+        android:scaleType="centerCrop"
+        android:layout_weight="1.29"
+        android:layout_gravity="center_horizontal|top"
+
+        android:background="#000099CC" />
+    <TextView
+
+        android:id="@+id/btnStartLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Crew w1 Riley Compton"
+        android:textSize="20dp"
+        android:background="#b4ffffff"
+        android:padding="15dp"
+        android:gravity="center"
+        android:maxHeight="55dp"
+        android:layout_alignTop="@+id/mainBg"
+        android:layout_alignLeft="@+id/mainBg"
+        android:layout_alignStart="@+id/mainBg" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Adjust Crew"
+        android:id="@+id/adjust_crew"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:singleLine="true"
+        android:background="#0099cc"
+        android:padding="15dp"
+        android:shadowColor="@color/abc_search_url_text_normal"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_below="@+id/btnStartLogin"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/begin_day_bg"
+
+        android:background="#b4ffffff"
+        android:layout_marginTop="76dp"
+        android:layout_below="@+id/adjust_crew"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Drive to First Property"
+        android:id="@+id/drive_next_property"
+        android:background="#0099CC"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffffff"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/start_shop_time"
+        android:layout_alignStart="@+id/start_shop_time" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Start Shop Time"
+        android:id="@+id/start_shop_time"
+        android:background="#0099CC"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="15dp"
+        android:layout_marginTop="67dp"
+        android:layout_alignTop="@+id/begin_day_bg"
+        android:layout_alignLeft="@+id/adjust_crew"
+        android:layout_alignStart="@+id/adjust_crew" />
+
+
+</RelativeLayout>

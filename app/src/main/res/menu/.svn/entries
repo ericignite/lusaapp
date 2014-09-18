@@ -1,0 +1,56 @@
+10
+
+dir
+0
+http://svn.ignite360.com/repo/trunk/androidapps/Lusa/v0.1/app/src/main/res/menu
+http://svn.ignite360.com/repo
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+369f2e7a-d44a-0410-b8bc-d7b9f944a0d9
+
+detail.xml
+file
+
+
+
+add
+
+main.xml
+file
+
+
+
+add
+
+detailfragment.xml
+file
+
+
+
+add
+
+forecastfragment.xml
+file
+
+
+
+add
+
